@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <section>
+            <div style="background-color: lawngreen; padding: 15px; box-sizing: border-box; width: 30%;">
+                <p style="font-size: large;">Завдання 1</p>
+                <div style="display: flexbox; flex-direction: row;">
+                    <button id="btn1">SHOW ME</button>
+                    <input type="text" id="inp1">
+                </div>
+            </div>
+        </section>
+        <br><br>
+        <section>
+            <div style="background-color: lawngreen; padding: 15px; box-sizing: border-box; width: 30%;">
+                <p style="font-size: large;">Завдання 3</p>
+                <div style="display: flexbox; flex-direction: row;">
+                    <input type="text" id="inp2">
+                    <button id="btn2">Приховати</button>
+                </div>
+            </div>
+        </section>
+        <br><br>
+        <section>
+            <div style="background-color: lawngreen; padding: 15px; box-sizing: border-box; width: 30%;">
+                <p style="font-size: large;" class="taskTitle" >Завдання 5</p>
+                <div id="place" style="background-color: green;">
+                    <br> <br><br><br><br>
+                </div>
+            </div>
+        </section>
+        <section>
+            <ul id="categories">
+                <li class="item">
+                  <h2>Animals</h2>
+                  <ul>
+                    <li>Cat</li>
+                    <li>Hamster</li>
+                    <li>Horse</li>
+                    <li>Parrot</li>
+                  </ul>
+                </li>
+                <li class="item">
+                  <h2>Products</h2>
+                  <ul>
+                    <li>Bread</li>
+                    <li>Prasley</li>
+                    <li>Cheese</li>
+                  </ul>
+                </li>
+                <li class="item">
+                  <h2>Technologies</h2>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                  </ul>
+                </li>
+              </ul>
+              
+        </section>
+        <br><br><br>
+        <section>
+            <form class="login-form">
+                <label>
+                  Email
+                  <input type="email" name="email" />
+                </label>
+                <label>
+                  Password
+                  <input type="password" name="password" />
+                </label>
+                <button type="submit">Log in</button>
+              </form>              
+        </section>
+        <section>
+            <div class="widget">
+                <p>Background color: <span class="color">-</span></p>
+                <button type="button" class="change-color">Change color</button>
+              </div>              
+        </section>
+        <br><br><br>
+        <section>
+            <div id="controls">
+                <input type="number" min="1" max="100" step="1" />
+                <button type="button" data-create>Create</button>
+                <button type="button" data-destroy>Destroy</button>
+              </div>
+              
+              <div id="boxes"></div>              
+        </section>
+    </main>
+    <footer></footer>
+    <script src="index.js"></script>
+</body>
+</html>
